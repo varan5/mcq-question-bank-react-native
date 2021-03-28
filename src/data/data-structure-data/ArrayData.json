@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "question": "Best data structure in the world ?",
+    "options": {
+      "a": "Array",
+      "b": "LinkedList",
+      "c": "BinaryTree",
+      "d": "Stack"
+    },
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Best is the best programming language in the world ?",
+    "options": {
+      "a": "Python",
+      "b": "Java",
+      "c": "Javascript",
+      "d": "C"
+    },
+    "answer": "c"
+  },
+
+  {
+    "id": 3,
+    "question": "Who is the CEO of Microsoft ?",
+    "options": {
+      "a": "Sunder Pichai",
+      "b": "Jeff Bezos",
+      "c": "Satya Nadela",
+      "d": "None of these"
+    },
+    "answer": "c"
+  }
+]
