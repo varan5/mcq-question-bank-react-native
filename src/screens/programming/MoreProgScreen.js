@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View, Button, Image, StyleSheet } from 'react-native'
 
-const MoreProgScreen = ({ navigator }) => {
+const MoreProgScreen = () => {
     return (
         <View>
             <Text style={styles.textStyle}>C Programming Information here</Text>

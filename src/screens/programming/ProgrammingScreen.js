@@ -8,7 +8,7 @@ const ProgrammingScreen = ({ navigation }) => {
             <Text style={styles.textStyle}>Welcome To C Programming</Text>
             <TouchableOpacity onPress={() => navigation.navigate('MoreProg') }>
                 <Image 
-                    source={require('../../assets/programming.png')}
+                    source={require('../../../assets/programming.png')}
                     style={styles.imageStyle}
                 />
             </TouchableOpacity>

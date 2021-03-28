@@ -6,12 +6,12 @@ const WishScreen = ({ navigation }) => {
         <View>
             <Text style={styles.textStyle}>       All The Best !</Text>
             <Image 
-                source={require('../../assets/logo.png')}
+                source={require('../../../assets/logo.png')}
                 style={styles.imageStyle}
             />
             <Button 
                 title="Go Back"
-                color="darkred"
+                color="teal"
                 onPress={() => navigation.navigate('Home')}
             />
         </View>
@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
         width: 360,
     },
     buttonStyle: {
-        color: 'red',
 
     }
 })

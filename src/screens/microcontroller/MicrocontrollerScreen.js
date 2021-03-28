@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, Button, Image, StyleSheet, Touchable } from 'react-native'
+import { Text, View, Button, Image, StyleSheet } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 const MicrocontrollerScreen = ({ navigation }) => {
@@ -8,7 +8,7 @@ const MicrocontrollerScreen = ({ navigation }) => {
             <Text style={styles.textStyle}>Welcome To 8051 Microcontroller</Text>
             <TouchableOpacity onPress={() => navigation.navigate('MoreMicro') }>
                 <Image 
-                    source={require('../../assets/microcontroller.jpg')}
+                    source={require('../../../assets/microcontroller.jpg')}
                     style={styles.imageStyle}
                 />
             </TouchableOpacity>

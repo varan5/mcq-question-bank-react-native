@@ -9,6 +9,8 @@ import MoreProgScreen from './src/screens/programming/MoreProgScreen';
 import MoreMicroScreen from './src/screens/microcontroller/MoreMicroScreen';
 import ArrayScreen from './src/screens/data-structure/contents/array/ArrayScreen';
 import DataStructureScreen from './src/screens/data-structure/DataStructureScreen';
+import LinkedListScreen from './src/screens/data-structure/contents/linked-list/LinkedListScreen';
+import StackScreen from './src/screens/data-structure/contents/stack/StackScreen';
 
 const navigator = createStackNavigator(
   {
@@ -21,6 +23,8 @@ const navigator = createStackNavigator(
     Array: ArrayScreen,
     MoreProg: MoreProgScreen,
     MoreMicro: MoreMicroScreen,
+    Linked: LinkedListScreen,
+    Stack: StackScreen,
 
   },
   {

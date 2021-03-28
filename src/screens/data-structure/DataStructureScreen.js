@@ -9,9 +9,19 @@ const DataStructureScreen = ({ navigation }) => {
                 title="Array"
                 onPress={() => navigation.navigate('Array')}
             />
+            
+            <Button 
+                title="Linked List"
+                onPress={() => navigation.navigate('Linked')}
+            />
+
+            <Button 
+                title="Stack"
+                onPress={() => navigation.navigate('Stack')}
+            />
             <TouchableOpacity onPress={() => navigation.navigate('MoreData')}>
                 <Image 
-                    source={require('../../assets/data-structure.jpg')}
+                    source={require('../../../assets/data-structure.jpg')}
                     style={styles.imageStyle}
                 />
             </TouchableOpacity>
